@@ -244,5 +244,8 @@ textarea {
   color: rgb(8, 200, 248);
 }
 .body__productos {
-  padding-bottom: 15%;
+  padding-bottom: 20%;
+}
+.body__index {
+  padding-bottom: 20;
 }
