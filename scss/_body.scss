@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+}
+.body__productos {
+  padding-bottom: 20%;
+}
+.body__index {
+  padding-bottom: 20%;
+}
+.body__ofertas {
+  padding-bottom: 20%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .col {
+      width: 100%;
+    }
+  }
+}
+.fondo__index {
+  background-image: url(../Imagenes/fondo2000x1333.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.body_contacto {
+  background-image: url(../Imagenes/fondo2-.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.producto__fondo {
+  background-image: url(../Imagenes/fondoalternativo1920x1281.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.fondo_nosotros {
+  background-image: url(../Imagenes/Frente-fiambreria-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.ofertas_fondo {
+  background-image: url(../Imagenes/fondo-nosjpg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.display-nosotros__dir {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 300px;
+  color: rgb(8, 200, 248);
+}
+.img-nos {
+  margin-top: 0;
+}

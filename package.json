@@ -1,0 +1,20 @@
+{
+  "name": "el-secreto-fiambreria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanTrod/El-Secreto-Fiambreria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanTrod/El-Secreto-Fiambreria/issues"
+  },
+  "homepage": "https://github.com/JonathanTrod/El-Secreto-Fiambreria#readme"
+}
