@@ -1,7 +1,6 @@
 {
   "name": "el-secreto-fiambreria",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/JonathanTrod/El-Secreto-Fiambreria/issues"
   },
-  "homepage": "https://github.com/JonathanTrod/El-Secreto-Fiambreria#readme"
+  "homepage": "https://github.com/JonathanTrod/El-Secreto-Fiambreria#readme",
+  "description": ""
 }
