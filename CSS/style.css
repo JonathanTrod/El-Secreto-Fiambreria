@@ -98,6 +98,9 @@ body {
   .section__contacto {
     padding-bottom: 20%;
   }
+  .section__contacto .formulario {
+    width: 50%;
+  }
 }
 header {
   background-color: rgb(0, 0, 0);
