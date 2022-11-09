@@ -7,9 +7,15 @@ header {
     max-width: 30%;
     vertical-align: middle;
   }
-}
-.nav-link,
-:focus {
-  color: white;
+  .navbar-dark {
+    background: linear-gradient(to right, black, rgb(70, 0, 0));
+    .nav-link,
+    :focus {
+      color: white;
+      &:hover {
+        opacity: 0.65;
+      }
+    }
+  }
 }
 $navbar-dark-color: rgb(255, 255, 255);

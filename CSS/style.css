@@ -1,3 +1,25 @@
+header {
+  background-color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+header #logo {
+  max-width: 30%;
+  vertical-align: middle;
+}
+header .navbar-dark {
+  background: linear-gradient(to right, black, rgb(70, 0, 0));
+}
+header .navbar-dark .nav-link,
+header .navbar-dark :focus {
+  color: white;
+}
+header .navbar-dark .nav-link:hover,
+header .navbar-dark :focus:hover {
+  opacity: 0.65;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +105,20 @@ body {
   margin-top: 0;
 }
 
+.container_carrousel {
+  animation: from-right 2s ease;
+}
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
 @media (max-width: 768px) {
   #carouselExampleCaptions {
     width: 50%;
@@ -107,22 +143,11 @@ body {
     padding-bottom: 30%;
   }
 }
-header {
-  background-color: rgb(0, 0, 0);
-  position: sticky;
-  top: 0;
-  z-index: 2;
+@media (max-width: 768px) {
+  #logo {
+    width: 20%;
+  }
 }
-header #logo {
-  max-width: 30%;
-  vertical-align: middle;
-}
-
-.nav-link,
-:focus {
-  color: white;
-}
-
 form {
   width: 450px;
   margin: auto;
@@ -209,6 +234,7 @@ form #bottom__enviar:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background: linear-gradient(to left, black, rgb(70, 0, 0));
 }
 
 /*# sourceMappingURL=style.css.map */
