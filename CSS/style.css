@@ -132,7 +132,7 @@ body {
 }
 @media (max-width: 768px) {
   .section__contacto {
-    padding-bottom: 20%;
+    padding-bottom: 60%;
   }
   .section__contacto .formulario {
     width: 50%;
