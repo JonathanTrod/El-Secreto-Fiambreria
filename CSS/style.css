@@ -119,6 +119,14 @@ body {
   }
 }
 
+.mapa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 20%;
+}
+
 @media (max-width: 768px) {
   #carouselExampleCaptions {
     width: 50%;
@@ -139,13 +147,13 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .display-nosotros {
-    padding-bottom: 30%;
+  #logo {
+    width: 20%;
   }
 }
 @media (max-width: 768px) {
-  #logo {
-    width: 20%;
+  .mapa {
+    padding-bottom: 50%;
   }
 }
 form {

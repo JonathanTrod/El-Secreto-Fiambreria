@@ -18,12 +18,13 @@
   }
 }
 @media (max-width: 768px) {
-  .display-nosotros {
-    padding-bottom: 30%;
-  }
-}
-@media (max-width: 768px) {
   #logo {
     width: 20%;
   }
 }
+@media (max-width: 768px) {
+  .mapa {
+    padding-bottom: 50%;
+  }
+}
+$navbar-dark-color: rgb(255, 255, 255);
