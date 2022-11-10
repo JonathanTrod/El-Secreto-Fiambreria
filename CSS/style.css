@@ -11,12 +11,8 @@ header #logo {
 header .navbar-dark {
   background: linear-gradient(to right, black, rgb(70, 0, 0));
 }
-header .navbar-dark .nav-link,
-header .navbar-dark :focus {
-  color: white;
-}
-header .navbar-dark .nav-link:hover,
-header .navbar-dark :focus:hover {
+header .navbar-dark .nav-link:hover {
+  color: red;
   opacity: 0.65;
 }
 
@@ -243,6 +239,9 @@ form #bottom__enviar:hover {
   bottom: 0;
   width: 100%;
   background: linear-gradient(to left, black, rgb(70, 0, 0));
+}
+.footer__mycss i {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
