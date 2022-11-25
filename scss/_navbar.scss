@@ -12,6 +12,10 @@ header {
     .nav-link:hover {
       color: red;
       opacity: 0.65;
+      & .navabar-brand:hover {
+        color: red;
+        opacity: 0.65;
+      }
     }
   }
 }

@@ -9,28 +9,6 @@ body {
   padding-bottom: 3rem;
   min-height: 100vh;
 }
-.body__productos {
-  padding-bottom: 20%;
-}
-.body__index {
-  padding-bottom: 20%;
-}
-.body__ofertas {
-  padding-bottom: 20%;
-}
-.container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1320px;
-  .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .col {
-      width: 100%;
-    }
-  }
-}
 .fondo__index {
   background-image: url(../Imagenes/fondo2000x1333.jpg);
   background-size: cover;
@@ -64,8 +42,8 @@ body {
 .display-nosotros__dir {
   font-size: 2rem;
   text-align: center;
-  margin-top: 300px;
-  color: rgb(8, 200, 248);
+  margin-top: 100px;
+  color: rgb(168, 10, 10);
 }
 .img-nos {
   margin-top: 0;
@@ -88,5 +66,5 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
 }
